@@ -7,7 +7,7 @@ SET PASSWORD=CarefulWithSpecialChars
 :START
 "C:\Program Files\ETHMiner\ethminer.exe"^
 	--cuda^
-	--report-hr^
+	--report-hashrate^
 	--pool stratum://%ADDRESS%@eth-eu2.nanopool.org:9999/%NAME%/%PASSWORD%^
 	--pool stratum://%ADDRESS%@eth-eu1.nanopool.org:9999/%NAME%/%PASSWORD%
 IF ERRORLEVEL 1 GOTO START
