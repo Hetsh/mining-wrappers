@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-ADDRESS="0x4589dd1A8F57e534Ab10C993F5c122b40aD0a7cd"
+ADDRESS="33QnNqiPXaCAu4jteMu9QGfTye4iQN1vf5"
 NAME="GITHUB"
 
 ethminer \
