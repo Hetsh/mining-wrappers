@@ -8,4 +8,4 @@ SET NAME=GITHUB
 	--cuda^
 	--pool stratum://%ADDRESS%.%NAME%@daggerhashimoto.eu-north.nicehash.com:3353^
 	--pool stratum://%ADDRESS%.%NAME%@daggerhashimoto.eu-west.nicehash.com:3353
-IF ERRORLEVEL 1 GOTO START
+GOTO START

@@ -9,4 +9,4 @@ SET NAME=GITHUB
 	--report-hashrate^
 	--pool stratum://%ADDRESS%.%NAME%@eu-eth.hiveon.net:4444^
 	--pool stratum://%ADDRESS%.%NAME%@eu-eth.hiveon.net:14444
-IF ERRORLEVEL 1 GOTO START
+GOTO START

@@ -10,4 +10,4 @@ SET PASSWORD=CarefulWithSpecialChars
 	--report-hashrate^
 	--pool stratum://%ADDRESS%@eth-eu2.nanopool.org:9999/%NAME%/%PASSWORD%^
 	--pool stratum://%ADDRESS%@eth-eu1.nanopool.org:9999/%NAME%/%PASSWORD%
-IF ERRORLEVEL 1 GOTO START
+GOTO START

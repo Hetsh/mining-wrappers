@@ -10,4 +10,4 @@ SET PASSWORD=CarefulWithSpecialChars
 	--report-hashrate^
 	--pool stratum+tcp://%ADDRESS%.%NAME%/%PASSWORD%@rvn-eu2.nanopool.org:12222^
 	--pool stratum+tcp://%ADDRESS%.%NAME%/%PASSWORD%@rvn-eu1.nanopool.org:12222
-IF ERRORLEVEL 1 GOTO START
+GOTO START
